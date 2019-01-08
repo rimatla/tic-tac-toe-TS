@@ -15,7 +15,7 @@ interface IState {
   gameIsWon: number | ONGOING_GAME
 }
 class App extends Component<{}, IState> {
-  public state = {
+  public state: IState = {
     board: [
       Player.None,
       Player.None,
